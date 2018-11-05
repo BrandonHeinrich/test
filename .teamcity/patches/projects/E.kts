@@ -13,5 +13,5 @@ changeProject(RelativeId("E")) {
     check(name == "e") {
         "Unexpected name: '$name'"
     }
-    name = "Xirgo Common Lib"
+    name = "Test"
 }
