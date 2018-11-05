@@ -13,7 +13,8 @@ create(RelativeId("XirgoCommonLib"), GitVcsRoot({
     id("XirgoCommonLib_XirgoCommonLib")
     name = "XirgoCommonLib"
     url = "ssh://git@bitbucket.xirgotech.com:7999/xdm/xirgocommonlib.git"
-    authMethod = password {
+    authMethod = uploadedKey {
+        uploadedKey = "id_rsa"
     }
 }))
 
